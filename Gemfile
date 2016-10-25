@@ -45,3 +45,9 @@ group :development do
   gem 'spring'
 end
 
+comandos
+
+rake db:create
+
+rails g scaffold Post title:string body:text
+rake db:migrate
